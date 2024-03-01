@@ -5,7 +5,7 @@ This repository was written in HTML and Python , and requires the following Pyth
  pandas, numpy, re, pickle, nltk, flask, json, plotly, sklearn, sqlalchemy, sys,  warnings.
 
 ## Project Overview
-The code is written to support the categorization of messages for disaster response.
+The code is written to support the categorization of messages for disaster responses.
 
 The app is built and uses ML model to categorize every message received
 ## File Description:
