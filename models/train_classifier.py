@@ -100,7 +100,7 @@ def evaluate_model(model, X_test, y_test, category_names):
     for i, col in enumerate(category_names):
         precision, recall, fscore, support = precision_recall_fscore_support(y_test[col],
                                                                     y_pred[:, i],
-                                                                    average='weighted')
+                                                                    average='micro')
 
         print('\nReport for the column ({}):\n'.format(colored(col, 'red', attrs=['bold', 'underline'])))
 
